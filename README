@@ -1,0 +1,13 @@
+== Simple mandelbrot sample program ==
+
+* Requirement
+  - gcc4.0 or later
+  - OpenGL
+
+* Compile and Run
+On Mac OS X
+  % gcc mandelbrot.c -o mandelbrot -framework OpenGL -framework GLUT -framework Foundation
+  % ./mandelbrot
+
+* TODO
+To handle command line arguments.
